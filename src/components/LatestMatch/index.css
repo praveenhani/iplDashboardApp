@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.latest-card {
+  min-width: 300px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0f172a;
+  border-radius: 10px;
+  font-family: 'Bree Serif';
+  margin: 20px;
+}
+.left-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  color: white;
+}
+@media (max-width: 700px) {
+  .latest-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .left-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+  }
+  .img-container {
+    order: 2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .right-holder {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.latest-heading {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.date-match {
+  font-size: 26px;
+}
+
+.venue-match {
+  font-size: 16px;
+}
+
+.latest-image {
+  width: 260px;
+  height: 200px;
+  margin-right: 46px;
+}
+
+.right-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+}
+
+.latest-innings {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.values-latest {
+  font-size: 14px;
+}

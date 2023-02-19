@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.main-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100%;
+  font-family: 'Bree Serif';
+}
+
+.logo-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ipl-logo {
+  width: 35px;
+  height: 55px;
+  margin-right: 10px;
+}
+
+.logo-name {
+  color: white;
+  font-size: 35px;
+}
+
+.dash-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  list-style-type: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (max-width: 576px) {
+  .dash-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 756px) {
+  .dash-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
